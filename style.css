@@ -13,10 +13,13 @@ body{
     text-align: center;
     width: 50%;
     margin: 0 25%;
-    color: #d4ff6b;
+}
+.basic_margin{
+    margin: 60px 0;
 }
 .header_formatting_div{
     padding: 100px 0;
+    color: #d4ff6b;
 }
 .header_formatting_div h1{
     font-size: 50px;
@@ -37,11 +40,10 @@ body{
 }
 .second_formatting_div{
     color: #707070;
-    padding-top: 20px;
 }
 .second_formatting_div h1{
     font-size: 35px;
-    color: rgb(255 100 100);
+    color: #000000;
     font-weight: 700;
 }
 .second_formatting_div p{
@@ -84,4 +86,72 @@ body{
 }
 .secend_last_button{
     margin: 0 39%;
+}
+.third_formatting_div{
+    color: #707070;
+}
+.third_formatting_div h1{
+    font-size: 35px;
+    color: #000000;
+    font-weight: 700;
+}
+.third_formatting_div p{
+    width: 80%;
+    margin: 10px 10%;
+}
+.third_last_section{
+    display: flex;
+    width: 90%;
+    margin: 0 5%;
+    margin-top: 50px;
+}
+.third_last_section div{
+    width: 30%;
+    margin: 0 1%;
+    padding: 30px 40px;
+}
+.third_last_section img{
+    width: 60px;
+    height: 60px;
+}
+.sec_01{
+    background-color: #EDF5F6;
+}
+.sec_02{
+    background-color: #FFEEEE;
+}
+.sec_03{
+    background-color: #FFF4D6;
+}
+.common_area_fourth{
+    background-color: #FF5959;
+}
+.fourth_section {
+    width: 50%;
+    margin: 0 25%;
+    padding: 40px 0;
+    text-align: center;
+    color: #ffffff;
+}
+.fourth_section h1{
+    font-size: 35px;
+}
+.fourth_section p{
+    margin-bottom: 30px;
+}
+.fourth_formatting_div{
+    color: #707070;
+}
+.fourth_formatting_div h1{
+    font-size: 35px;
+    color: #000000;
+    font-weight: 700;
+}
+.fourth_formatting_div p{
+    width: 80%;
+    margin: 10px 10%;
+}
+.subsription_section{
+    width: 100%;
+    height: 400px;
 }
