@@ -9,12 +9,14 @@ body{
     background-size: cover;
     background-position: top;
 }
-.header_formatting_div{
+.common_format{
     text-align: center;
     width: 50%;
     margin: 0 25%;
-    padding: 100px 0;
     color: #d4ff6b;
+}
+.header_formatting_div{
+    padding: 100px 0;
 }
 .header_formatting_div h1{
     font-size: 50px;
@@ -25,11 +27,61 @@ body{
     width: 60%;
     margin: 50px 20%;
 }
-.header_formatting_div a{
+.common_button{
     text-decoration: none;
     background-color: #7cd137;
     color: #ffffff;
     padding: 10px 30px;
     border-radius: 7px;
     font-weight: 700;
+}
+.second_formatting_div{
+    color: #707070;
+    padding-top: 20px;
+}
+.second_formatting_div h1{
+    font-size: 35px;
+    color: rgb(255 100 100);
+    font-weight: 700;
+}
+.second_formatting_div p{
+    width: 80%;
+    margin: 20px 10%;
+}
+.second_sec_paragraph{
+    color: #707070;
+    width: 50%;
+    margin: 0 25%;
+}
+.second_formatt_p{
+    display: flex;
+    margin: 20px auto;
+    width: 100%;
+}
+.second_formatt_p div{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 66px;
+    margin: 0 4%;
+    background-color: #FAFAFA
+}
+.second_formatt_p p{
+    font-weight: 700;
+}
+#hight_light{
+    background-color: #FFEEEE;
+    border: 1px solid #FF5959;
+}
+#amount{
+    border: none;
+    width: 100%;
+    border-bottom: 2px solid gray;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    margin: 40px 0;
+}
+.secend_last_button{
+    margin: 0 39%;
 }
