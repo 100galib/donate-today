@@ -3,8 +3,12 @@ body{
     margin: 0;
     color: #707070;
 }
+p{
+    margin: 0;
+}
 .header_bg{
     background-image: url(image/donation9.jpg);
+    background-color: rgba(0, 0, 0, 0.6);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -45,6 +49,8 @@ body{
     font-size: 35px;
     color: #000000;
     font-weight: 700;
+    margin-top: 0;
+    padding-top: 60px;
 }
 .second_formatting_div p{
     width: 80%;
@@ -52,19 +58,20 @@ body{
 }
 .second_sec_paragraph{
     color: #707070;
-    width: 50%;
-    margin: 0 25%;
+    width: 60%;
+    margin: 0 20%;
 }
 .second_formatt_p{
     display: flex;
-    margin: 20px auto;
     width: 100%;
+    margin-top: 40px;
+    margin-bottom: 70px;
 }
 .second_formatt_p div{
     height: 100px;
     width: 100px;
     text-align: center;
-    line-height: 66px;
+    line-height: 100px;
     margin: 0 4%;
     background-color: #FAFAFA
 }
@@ -94,6 +101,8 @@ body{
     font-size: 35px;
     color: #000000;
     font-weight: 700;
+    margin: 0;
+    padding-top: 60px;
 }
 .third_formatting_div p{
     width: 80%;
@@ -151,6 +160,10 @@ body{
     width: 80%;
     margin: 10px 10%;
 }
+#button_explore{
+    background-color: #ffffff;
+    color: #FF5959;
+}
 .subsription_section{
     padding: 50px 0;
     background-color: #FFF4D6;
@@ -175,4 +188,17 @@ body{
     color: #ffffff;
     border-top-right-radius: 7px;
     border-bottom-right-radius: 7px;
+}
+footer{
+    background-color: #000000;
+    text-align: center;
+    color: #FAFAFA;
+}
+footer h1{
+    font-family: 'Lobster', cursive;
+    color: #FF5959;
+    padding-top: 60px;
+}
+footer p{
+    padding-bottom: 60px;
 }
